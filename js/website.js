@@ -2,7 +2,7 @@ var cytoStyles = [
     {
         selector: 'node',
         style: {
-            'background-color': '#599542',
+            'background-color': '#98C93C',
             'content': 'data(name)',
             'color': '#fff',
             'text-outline-width': 2,
@@ -30,8 +30,18 @@ var cytoStyles = [
     {
         selector: '#athena',
         style: {
+            'background-color': '#ffffff',
+            'background-image': 'athena-logo-nocredits.png',
+            'background-height': '60px', 
+            'background-width': '70px', 
+            'content': false,
             'height': '60px',
-            'width': '60px'
+            'label': false,
+            'padding-bottom': '15px',
+            'padding-top': '5px',
+            'shape': 'roundrectangle',
+            'text-outline-color': '#ffffff',
+            'width': '70px'
         }
     }
 ];
@@ -53,7 +63,6 @@ var cytoElements = [
 ];
 var cytoLayout = {
     name: 'concentric',
-    fit: true,
     animate: true
 };
 var cytoOptions = {

@@ -7,14 +7,15 @@
     .lead {
         color: #777;
         font-size: 20px;
-        margin: 40px 0;
+        margin: 35px 0;
     }
 }
 
 @media (min-width: 1025px) {
     .splash {
         .lead {
-            font-size: 25px;
+            font-size: 23px;
+            line-height: 30px;
         }
     }
 }

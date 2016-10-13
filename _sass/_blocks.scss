@@ -1,7 +1,7 @@
 .splash {
-    padding: 20px 0 40px;
+    padding-bottom: 40px;
     .logo {
-        height: 350px;
+        height: 250px;
     }
     .lead {
         color: #777;
@@ -13,7 +13,7 @@
 @media (min-width: 1025px) {
     .splash {
         .logo {
-            height: 250px;
+            height: 400px;
         }
         .lead {
             font-size: 23px;

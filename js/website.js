@@ -31,7 +31,7 @@ var cytoStyles = [
         selector: '#athena',
         style: {
             'background-color': '#ffffff',
-            'background-image': 'athena-logo-250.png',
+            'background-image': 'athena-logo-nolabel.png',
             'background-height': '60px', 
             'background-width': '60px', 
             'content': false,

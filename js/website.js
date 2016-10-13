@@ -49,16 +49,14 @@ var cytoElements = [
     { data: { id: 'php', name: 'PHP', href: 'https://github.com/athena-oss/plugin-php' } },
     { data: { id: 'athena', name: 'Athena', href: 'https://github.com/athena-oss/athena' } },
     { data: { id: 'selenium', name: 'Selenium', href: 'https://github.com/athena-oss/plugin-selenium' } },
-    { data: { id: 'any2', name: 'Your tools here', href: 'https://github.com/athena-oss/athena' } },
-    { data: { id: 'any1', name: 'Example plugin', href: 'https://github.com/athena-oss/example-plugin-simple-php-webserver' } },
+    { data: { id: 'example', name: 'Example plugin', href: 'https://github.com/athena-oss/example-plugin-simple-php-webserver' } },
     { data: { id: 'proxy', name: 'Proxy', href: 'https://github.com/athena-oss/plugin-proxy' } },
 
     // edges
     { data: { id: 'edge_php', source: 'php', target: 'athena' }, classes: 'segments' },
     { data: { id: 'edge_selenium', source: 'selenium', target: 'athena' }, classes: 'segments' },
     { data: { id: 'edge_proxy', source: 'proxy', target: 'athena' }, classes: 'segments' },
-    { data: { id: 'edge_any1', source: 'any1', target: 'athena' }, classes: 'segments' },
-    { data: { id: 'edge_any2', source: 'any2', target: 'athena' }, classes: 'segments' }
+    { data: { id: 'edge_example', source: 'example', target: 'athena' }, classes: 'segments' }
 ];
 var cytoLayout = {
     name: 'concentric',

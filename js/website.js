@@ -31,14 +31,13 @@ var cytoStyles = [
         selector: '#athena',
         style: {
             'background-color': '#ffffff',
-            'background-image': 'athena-logo-nocredits.png',
+            'background-image': 'athena-logo-250.png',
             'background-height': '60px', 
-            'background-width': '70px', 
+            'background-width': '60px', 
             'content': false,
             'height': '60px',
             'label': false,
-            'padding-bottom': '15px',
-            'padding-top': '5px',
+            'padding-bottom': '5px',
             'shape': 'roundrectangle',
             'text-outline-color': '#ffffff',
             'width': '70px'
@@ -47,12 +46,12 @@ var cytoStyles = [
 ];
 var cytoElements = [
     // nodes
-    { data: { id: 'php', name: 'PHP', href: 'http://cytoscape.org' } },
-    { data: { id: 'athena', name: 'Athena', href: 'http://cytoscape.org' } },
-    { data: { id: 'selenium', name: 'Selenium', href: 'http://js.cytoscape.org' } },
-    { data: { id: 'any2', name: 'Any other tool', href: 'http://js.cytoscape.org' } },
-    { data: { id: 'any1', name: 'Your deploy tool', href: 'http://js.cytoscape.org' } },
-    { data: { id: 'proxy', name: 'Proxy', href: 'http://js.cytoscape.org' } },
+    { data: { id: 'php', name: 'PHP', href: 'https://github.com/athena-oss/plugin-php' } },
+    { data: { id: 'athena', name: 'Athena', href: 'https://github.com/athena-oss/athena' } },
+    { data: { id: 'selenium', name: 'Selenium', href: 'https://github.com/athena-oss/plugin-selenium' } },
+    { data: { id: 'any2', name: 'Your tools here', href: 'https://github.com/athena-oss/athena' } },
+    { data: { id: 'any1', name: 'Example plugin', href: 'https://github.com/athena-oss/example-plugin-simple-php-webserver' } },
+    { data: { id: 'proxy', name: 'Proxy', href: 'https://github.com/athena-oss/plugin-proxy' } },
 
     // edges
     { data: { id: 'edge_php', source: 'php', target: 'athena' }, classes: 'segments' },
